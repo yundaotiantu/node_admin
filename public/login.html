@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/login.css">
+		<link rel="stylesheet" href="css/init.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/vector.js"></script>
+		<script src="js/login.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/footer.js"></script>
+	</head>
+	<body>
+		<header id="header">
+		</header>
+		<div id="container" class="container">
+			<div id="output" class="output">
+				<div class="part_rt">
+					<form action="" method="post" class="form" id="form">
+						<div id="hint" class="hint"></div>
+						<div class="lg_part" id="lg_part">
+							<dl>
+								<dt>用户名</dt>
+								<dd>
+									<input type="text" class="uname" id="uname">
+								</dd>
+								<b class="name icon"></b>
+							</dl>
+							<dl>
+								<dt>密&nbsp;&nbsp;码</dt>
+								<dd><input type="password" id="upwd" class="upwd"></dd>
+								<b class="pwd icon"></b>
+							</dl>
+							<dl>
+								<dt>验证码</dt>
+								<dd>
+									<input type="text" id="code" class="code">
+									<span id="yanzhengma" class="yzm"></span>
+									<b class="chkcd" id="chkcode">看不清。请点击换一张</b>
+								</dd>
+							</dl>
+						</div>
+						<div class="rm_part">
+							<a href="">忘记密码</a>
+							<input type="checkbox" checked class="remember" name="remember" id="remember" value="1"><b>自动登录</b>
+						</div>
+						<a class="btn" id="btn">登&nbsp;&nbsp;录</a>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="footer"></div>
+	</body>
+</html>

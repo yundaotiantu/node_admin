@@ -1,0 +1,42 @@
+
+.main_part{margin-top:10px;}
+.w1000{width:1000px;height:560px;margin:0 auto;}
+.left_part{width:400px;height:400px;float:left;position:relative;margin-top:30px}
+.left_part .mediumDiv img{width:400px;height:400px;border:1px solid #DDDDDD;}
+.icon_list{position:relative;top:10px;}
+.icon_list li{position:relative;width:70px;height:70px;margin-left:20px;float:left;border:1px solid #E0E0E0;}
+.icon_list li img{width:70px;height:70px;opacity:0.6;}
+.icon_list li i{display:none;top:72px;width:68px;height:11px;position:absolute;background:url(../images/tp_03.jpg) 0 0 no-repeat;}
+.icon_list li:hover{border:1px solid #DC767B;}
+.icon_list li:hover i{display:block;}
+.icon_list li:hover img{opacity:1;}
+.show_detail{width:455px;height:465px;float:right;margin-top:40px;}
+.show_detail h1{width:375px;font-size:26px;margin-top:25px;margin-bottom:10px;color:#000;font-weight:normal;}
+.show_detail li{height:34px;line-height:34px;width:375px;margin:10px 0;}
+span.basic-a{display:inline-block;width:60px;}
+span.new_price{font-size:30px;color:#ff6700;}
+span.cost{margin-left:20px;margin-right:10px;}
+p.count button{width:20px;height:20px;cursor:pointer;}
+p.count input{width:45px;height:14px;text-align:center;margin-left:-5px;z-index:-1;position:relative;top:-1px;}
+p.count .number_add{margin-left:-5px;}
+div.shops{margin-top:60px;}
+div.shops a{display:block;width:172px;height:35px;line-height:35px;text-align:center;border-radius:2px;background:#a31119;font-size:14px;color:#fff;}
+.mediumDiv{position:relative;}
+.mask{position:absolute;width:200px;height:200px;background:#ffa;left:0;top:0;display:none;opacity:0.5;}
+.supMask{position:absolute;width:400px;height:400px;left:0;top:0;opacity:0;cursor:move;}
+.largeDiv{overflow:hidden;display:none;position:absolute;background:#fff;width:500px;height:500px;left:405px;top:0;border:1px solid #DDDDDD;}
+.largeDiv img{position:relative;width:1000px;height:1000px;left:0;top:0;}
+
+.intro{width:100%;height:auto;}
+.nav{width:100%;height:60px;margin:10px 0;background:#ededed;border-bottom:1px solid #e4e4e4;border-top:1px solid #e4e4e4;}
+.nav .w1200{height:100%;position:relative;}
+.tabs{width:651px;height:60px;margin:0 auto;position:relative;}
+.tabs li{width:187px;float:left;height:60px;line-height:60px;cursor:pointer;font-size:18px;text-align:center;}
+.tabs li.cur{color:#d0111b;}
+.nav .w1200 i{position:absolute;height:30px;top:15px;border:0.5px solid #d4d4d4;}
+.nav .w1200 i.one{left:461px;}
+.nav .w1200 i.two{left:648px;}
+.intro .inner{width:100%;text-align:center;}
+.intro .inner div{display:none;margin-bottom:20px;}
+.intro .inner div.on{display:block;}
+

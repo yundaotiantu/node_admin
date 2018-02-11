@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/init.css">
+		<link rel="stylesheet" href="css/cart.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+	</head>
+	<body>
+		<!-- 页头 -->
+		<header id="header">
+		</header>
+		<!-- 购物车主体 -->
+		<div id="shopping-cart" class="shopping-cart clearfix">
+			 <!--标题行-->
+			<div class="title">
+				<b>购物车</b>
+				<p>
+					已选
+					<span class="total cls">0</span>件商品
+					<span>合计(不含运费):&nbsp;</span>
+					<span class="totalPrices cls sum">0</span>
+					<span>元</span>
+				</p>
+			</div>
+			<!--内容块-->
+			<div id="box">
+				<!--内容-->
+				<div id="content-box">
+					<div class="imfor-top">
+						<div class="check-top" id="check-top">
+							<!-- <span><input type="checkbox"></span>
+							全选 --> 
+						</div>
+						<div class="product-top">商品</div>
+						<div class="price-top">单价(元)</div>
+						<div class="num-top">数量</div>
+						<div class="total-top">金额</div>
+						<div class="del-top">操作</div>
+					</div>
+					<div id="content-box-body">
+						<!-- <div class="imfor">
+							<div class="check">
+								<span><input type="checkbox"></span>
+							</div>
+							<div class="product">
+								<a href="">
+									<img src="picture/0b48300c636c4766b10432f33b381c23.jpg">
+								</a>
+								<span class="decs">
+									<a href="">
+										联想(Lenovo)小新700电竞版 15.6英寸游戏笔记本电脑(i5-6300HQ 8G 500G+128G SSD GTX950M 4G IPS)黑
+									</a>
+								</span>
+							</div>
+							<div class="price">
+								<p>会员专享</p>
+								<b>￥16416</b>
+							</div>
+							<div class="num">
+								<button class="reduce">-</button>
+								<input type="text" value="1">
+								<button class="add">+</button>
+							</div>
+							<div class="total-price">
+								<span>￥16416</span>
+							</div>
+							<div class="del">
+								<a href="#" id="del_part">删除</a>
+							</div>
+						</div>-->
+					</div>
+					<div class="cart_kong" id="cart_kong">
+						<p>
+							购物车空的，去
+							<a href="product_list.html">商城</a>
+							看看
+						</p>
+					</div>
+				</div>
+				<!--2.2.2 计算-->
+				<div class="foot">
+					<div class="base">
+						<div class="all" id="all_chk">
+							<span>
+								<input type="checkbox">
+							</span>
+							全选
+						</div>
+						<a href="javascript:;" id="del_chks">删除选取的商品</a>
+					</div>
+					<div class="go-price">
+						<div class="foot-selected">
+							已选
+							<span class="totalOne color">0</span>
+							件商品
+						</div>
+						<div class="foot-tol">
+							<span>合计(不含运费)：</span>
+							<span class="foot-price">0</span>
+							<span class="foot-desc">元</span>
+						</div>
+						<div class="foot-cash">去结算</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 页脚 -->
+		<footer id="footer">
+		</footer>
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/cart.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/footer.js"></script>
+	</body>
+</html>

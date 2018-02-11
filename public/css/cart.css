@@ -1,0 +1,221 @@
+
+.shopping-cart{
+	width:1000px;
+	margin:20px auto;
+}
+
+.title{
+	width:100%;
+	height:40px;
+	line-height:40px;
+}
+
+.title b{
+	float:left;
+	font-size:18px;
+	color:#000;
+	font-weight:bold;
+}
+
+.title p{
+	float:right;
+	font-size:12px;
+	color:#666;
+}
+
+.title p span.cls{
+	display:inline-block;
+	margin:0 8px;
+	font-size:14px;
+	font-weight:bold;
+	color:#ff3333;
+}
+
+.imfor-top{
+	width:100%;
+	height:36px;
+	line-height:36px;
+	border-top:1px solid #bbb;
+	background:linear-gradient(to bottom,#f5f4f5,#e6e6e5);
+	box-shadow: 3px 3px 6px #ccc;
+	margin:10px 0;
+}
+
+
+.imfor-top div{
+	float:left;
+}
+
+.check-top{
+	width:5%;
+	padding:0 8px;
+}
+
+.check-top span{
+	float:left;
+	margin:0;
+	margin-top:2px;
+}
+
+.check-top span input{
+	cursor:pointer;
+}
+
+
+.product-top{
+	width:35%;
+	padding:0 5px;
+	text-align:center;
+}
+
+.price-top{
+	width:14%;
+	padding:0 7px;
+	text-align:center;
+}
+
+.num-top{
+	width:14%;
+	padding:0 7px;
+	text-align:center;
+}
+
+.total-top{
+	width:12%;
+	padding:0 6px;
+	text-align:center;
+}
+
+.del-top{
+	width:10%;
+	padding:0 6px;
+	text-align:center;
+}
+
+.foot{
+	width:100%;
+	height:42px;
+	line-height:42px;
+	background:linear-gradient(to bottom,#f5f4f5,#e6e6e5);
+	border-radius: 0 0 2px 2px;
+}
+
+div.base{float:left;}
+
+.all{float:left;margin-right:8px;}
+
+.all span{float:left;margin-top:2px;}
+
+.all span input{cursor:pointer;}
+
+div.go-price{float:right;}
+
+div.go-price>div{float:left;}
+
+.foot-selected{margin-right:15px;}
+.foot-selected span{
+	display:inline-block;
+	margin:0 3px;
+	font-size:14px;
+	font-weight:bold;
+	color:#ff3333;
+}
+
+.foot-price{
+	display:inline-block;
+	margin:0 3px;
+	font-size:14px;
+	font-weight:bold;
+	color:#ff3333;
+}
+
+.foot-cash{
+	cursor:pointer;
+	width:140px;
+	height:42px;
+	line-height:42px;
+	background:linear-gradient(to bottom,#ff3300,#ff3366);
+	color:#fff;
+	border-radius:2px;
+	font-size:18px;
+	text-align:center;
+	margin-left:18px;
+}
+
+.imfor{
+	border:1px solid #e8e8e8;
+	margin-bottom:10px;
+	background:#fff;
+	height:115px;
+	line-height:115px;
+	width:100%;
+}
+
+.imfor>div{float:left;}
+
+.check{
+	width:4%;
+	padding:0 4px 0 22px;
+	cursor:pointer;
+}
+
+.check span input{cursor:pointer;}
+
+.product{
+	width:35%;
+	padding:0 5px;
+	text-align:center;
+	border-left:1px solid #e8e8e8;
+	border-right:1px solid #e8e8e8;
+}
+
+.product a{
+	float:left;
+	margin-right:5px;
+}
+
+.product img{width:80px;height:80px;}
+
+.decs{float:left;width:220px;margin-left:10px;margin-top:30px;}
+.decs a{line-height:20px;text-align:left;}
+.decs a:hover{color:#ff3333;}
+
+.price{
+	line-height:30px;
+	width:154px;
+	text-align:center;
+	height:100%;
+	border-right:1px solid #e8e8e8;
+}
+
+.price p:first-child{margin-top:25px;font-size:14px;color:red;}
+
+.num{width:154px;text-align:center;}
+.num input{width:30px;height:16px;text-align:center;margin-left:-5px;}
+.num button{width:22px;height:22px;cursor:pointer;}
+.num button.add{margin-left:-5px;}
+
+.total-price{
+	width:132px;
+	text-align:center;
+	border-left:1px solid #e8e8e8;
+	border-right:1px solid #e8e8e8;
+}
+
+.del{text-align:center;width:120px;}
+
+.cart_kong{
+	width:100%;
+	height:200px;
+	line-height:200px;
+	text-align:center;
+	border:1px solid #e8e8e8;
+	margin:20px 0;
+	display:none;
+}
+
+
+
+
+
+

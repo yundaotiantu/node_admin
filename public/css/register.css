@@ -1,0 +1,213 @@
+#header .head_main .mm_search{
+	display:none;
+}
+
+.rg_part .w1200{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.rg_inner{
+	width:100%;
+	height:600px;
+	overflow:hidden;
+	background:url(../images/newbg.jpg) no-repeat -80px -20px;
+}
+
+
+.rg{
+	position:relative;
+	width:680px;
+	height:500px;
+	box-sizing:border-box;
+	margin-left:40%;
+	top:50px;
+	border:1px solid #cecccc;
+}
+
+.rg .rg_title{
+	width:580px;
+	margin:0 auto;
+	height:60px;
+	line-height:70px;
+	margin-top:20px;
+	margin-bottom:15px;
+	border-bottom:2px solid #aaa;
+}
+
+.rg_title h3{
+	height:60px;
+	float:left;
+	font-size:20px;
+	color:#000;
+	line-height:60px;
+	margin-right:20px;
+}
+
+.rg_title a{
+	font-size:15px;
+	color:red;
+	font-weight:bold;
+}
+
+.rg div{width:620px;
+	margin:0 auto;
+	height:55px;
+	line-height:55px;
+	position:relative;
+}
+
+.rg div p{float:left;
+	font-size:14px;
+	height:55px;
+	line-height:55px;
+}
+
+
+.rg div p:first-child{
+	width:70px;
+	padding:0 6px;
+	color:#000;
+	text-align:right;
+}
+
+.rg div p:nth-child(2){
+	position:relative;
+}
+
+.rg div p input{
+	width:190px;
+	height:22px;
+	padding:3px 10px 3px 10px;
+	font-size:15px;
+	margin-right:10px;
+	border:1px solid #c2c1c1;
+	border-radius:2px;
+}
+
+.rg div p input.in{
+	border:1px solid red;
+}
+
+.rg div p input.code{
+	width:80px;
+	height:22px;
+	padding:3px 10px 3px 10px;
+	font-size:14px;
+	float:left;
+	margin-top:15px;
+}
+
+.rg div p.cd_part{
+	width:210px;
+	margin-right:10px;
+}
+
+.rg div p.cd_part #mg_code{
+	float:left;
+	width:56px;
+	height:auto;
+	padding:5px 3px;
+	font-size:16px;
+	color:#6d47a0;
+	border:none;
+	margin-top:16px;
+	cursor:pointer;
+	background:url(../picture/bg_5.jpg) center center no-repeat;
+	border-radius:2px;
+}
+
+
+
+.fs{
+	height:25px;
+	line-height:25px;
+	background:#aaa;
+	color:#dfdfdf;
+	padding:1px 10px;
+	border-radius:2px;
+	display:none;
+}
+
+.bl{
+	height:25px;
+	line-height:25px;
+	padding:1px 10px;
+	border-radius:3px;
+	color:#fff;
+	display:none;
+}
+
+.rg_btn{
+	display:block;
+	text-align:center;
+	margin-top:10px;
+	font-size:14px;
+	width:205px;
+	height:30px;
+	line-height:30px;
+	margin-left:115px;
+/*	background:#9e9e9e;*/
+	background:#0066ff;
+	color:#fff;
+	cursor:pointer;
+	border-radius:3px;
+	border:none;
+}
+
+.rg_btn:hover{
+	color:#fff;
+}
+
+
+/*btn激活的背景色*/
+/*.on{*/
+/*	background:#0066ff;*/
+/*}*/
+
+/*进入input时提示框.fs的属性*/
+.active{
+	display:inline-block;
+}
+
+/*离开input时提示框.fs的属性*/
+.leave{
+	display:none;
+}
+
+.success{
+	background:#33cc66;
+	display:inline-block;
+}
+
+.error{
+	background:red;
+	display:inline-block;
+}
+
+
+/*跳转至登录*/
+.enter_lgp{position:fixed;z-index:999;top:0;width:100%;height:100%;display:none;}
+.enter_part{border-radius:3px;background:#fff;position:fixed;border:1px solid #33cccc;width:300px;height:200px;top:180px;left:50%;margin-left:-150px;}
+.enter_hd{width:100%;line-height:50px;margin-top:30px;font-size:15px;text-align:center;}
+.enter_hd h3{font-weight:200;color:red;font-family:"Fantasy";background:#66ffff;}
+.enter_inner{height:50px;margin-top:15px;}
+.enter_inner p{
+	float:left;
+	margin:20px 35px;
+	width:70px;
+	border:1px solid #aaa;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-align:center;
+	cursor:pointer;
+	border-radius:3px;
+	color:#2d2d2d;
+}
+
+.enter_inner p:hover{
+	border:1px solid #33cccc;
+}
+
+
